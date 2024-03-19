@@ -1,5 +1,6 @@
 import logo from "./logo.png";
 import React from "react";
+import Dictionary from "./Dictionary"
 import './App.css';
 
 export default function App() {
@@ -8,9 +9,9 @@ export default function App() {
       <header>
         <img src={logo} width="200"className="rounded img-thumbnail" alt="logo"/>
       </header>
-  
-  <footer>
-    Designed by Ariana Morin open-sourced on GitHub and viewed on Netlify.
+  <Dictionary/>
+  <footer className="text-center">
+    Designed by Ariana Morin open-sourced on <a href="https://github.com/aam214/dictionary-app-project">{""}GitHub</a> and viewed on <a href="https://dictionary-app-discover-learn.netlify.app/">{""}Netlify</a>.
     </footer>  
     </div>
   );
