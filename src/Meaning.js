@@ -13,9 +13,9 @@ return (
 return (
     <div key={index}>
       <p><strong>Definition: </strong> {definition.definition}
-      </p>
+      
       <br/>
-    <p> <strong>Example: </strong> {definition.example}
+    <strong>Example: </strong> {definition.example}
    
     <Synonyms synonyms={definition.synonyms} /></p>
     </div>
