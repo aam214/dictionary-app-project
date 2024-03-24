@@ -11,8 +11,8 @@ return (
 
 return (
     <div key={index}>
-      <p><strong>
-        {definition.definition}</strong>
+      <p><em>
+        {definition.definition}</em>
       </p>
     <p>
       {definition.example}
