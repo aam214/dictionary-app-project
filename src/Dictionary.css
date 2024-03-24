@@ -1,0 +1,25 @@
+.Dictionary{
+  margin: 0 auto;
+  display: block;
+  background-color: white;
+  max-width: 900px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+form{
+  text-align: center;
+}
+.Dictionary .submit {
+  background-color: #a77c7c;
+  border: none;
+  color: white;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  padding: 10px 32px;
+  text-align: center;
+ border-radius: 4px;
+
+  font-weight: 500;
+  font-size: 16px;
+
+  cursor: pointer;
+}
