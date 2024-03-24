@@ -12,12 +12,12 @@ return (
 
 return (
     <div key={index}>
-      <p><strong>Definition: </strong> {definition.definition}
+      <strong>Definition: </strong> {definition.definition}
       
       <br/>
     <strong>Example: </strong> {definition.example}
    
-    <Synonyms synonyms={definition.synonyms} /></p>
+    <Synonyms synonyms={definition.synonyms} />
     </div>
   );
 })}
