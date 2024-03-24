@@ -9,12 +9,22 @@
 form{
   text-align: center;
 }
+.Dictionary .search-engine{
+  background-color: #f9f7fe;
+margin: 10px;
+  border-radius: 6px;
+  width: 40%;
+  font-size: 16px;
+  padding: 15px 15px;
+
+}
 .Dictionary .submit {
   background-color: #a77c7c;
   border: none;
   color: white;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
   padding: 10px 32px;
+  margin-left: 10px;
   text-align: center;
  border-radius: 4px;
 
