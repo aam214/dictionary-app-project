@@ -16,8 +16,8 @@ return (
       </p>
       <br/>
     <p> <strong>Example: </strong> {definition.example}
-    </p>
-    <Synonyms synonyms={definition.synonyms}/>
+   
+    <Synonyms synonyms={definition.synonyms} /></p>
     </div>
   );
 })}

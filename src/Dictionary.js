@@ -29,7 +29,7 @@ setResults(response.data[0]);
   return(
     <div className="Dictionary">
       <form onSubmit={search}>
-        <input type="search" value="Type a word..."  onChange={handlePossibleWordChange} className="search-engine"/>
+        <input type="search"  autoFocus={true} onChange={handlePossibleWordChange} className="search-engine"/>
         <input type="submit" value="Search" className="submit" />
       </form>
     <Results results={results}/>
