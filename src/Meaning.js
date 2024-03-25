@@ -16,11 +16,10 @@ return (
       
       <br/>
     <strong>Example: </strong> {definition.example}
-   
-    <Synonyms synonyms={definition.synonyms} />
     </div>
   );
 })}
+<Synonyms synonyms={props.meaning.synonyms} />
 </div>
 );
 }
