@@ -28,10 +28,12 @@ setResults(response.data[0]);
 
   return(
     <div className="Dictionary">
+      <section className="search">
       <form onSubmit={search}>
         <input type="search"   autoFocus={true} onChange={handlePossibleWordChange} className="search-engine"/>
         <input type="submit" value="Search" className="submit" />
       </form>
+      </section>
     <Results results={results}/>
     </div>
   );
