@@ -1,24 +1,21 @@
 .Dictionary{
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
   font-style: normal;
-  
+  color:#233142;
 }
 .Dictionary section{
   margin: 20px 60px;
+  padding: 20px 10px;
   background-color: white;
-padding: 30px;
-
-  border-radius: 8px;
+border-radius: 8px;
+  padding: 30px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 .Dictionary form{
   margin: 20px 200px;
-
   text-align: center;
   border-radius: 8px;
- 
-  margin-bottom: 30px;
+  margin-bottom: 15px;
  
 }
 
