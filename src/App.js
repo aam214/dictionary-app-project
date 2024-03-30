@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+
 import React from "react";
 import Dictionary from "./Dictionary"
 import './App.css';
@@ -7,9 +7,9 @@ export default function App() {
   return (
     <div className="App">
       <header>
-        <img src={logo} width="180"className="rounded img-thumbnail float-sm-start" alt="logo"/>
+      
 
-      <h1 className="text-center pe-5">My Dictionary</h1>
+      <h1 className="text-center">My Dictionary</h1>
       </header>
   <Dictionary defaultPossibleWord="Paradise"/>
   <footer className="text-center">
