@@ -2,19 +2,24 @@
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
-  background: #222831;
+  background: #2C7865;
 padding: 100px;
 }
 .App header{
   margin-top: -10px;
 margin-bottom: 200px;
-  background: #222831;
+  
 }
 .App h1{
   color: white;
   font-size: 70px;
 
+ 
 }
+.App img{
+  margin-top: -50px;
+}
+
 footer{
   color: white;
 }

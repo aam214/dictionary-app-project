@@ -36,13 +36,13 @@ search();
 
 if (loaded){
   return(
-    <div className="Dictionary">
-      <container className="search">
+<div className="Dictionary">
+    <section>
       <form onSubmit={handleSubmit}>
         <input type="search"   autoFocus={true} onChange={handlePossibleWordChange} className="search-engine"/>
         <input type="submit" value="Search" className="submit" />
       </form>
-      </container>
+      </section>
     <Results results={results}/>
     </div>
   );

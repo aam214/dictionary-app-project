@@ -1,0 +1,17 @@
+.Results h3{
+font-size: 40px;
+
+}
+.Results a{
+  text-decoration: none;
+
+}
+i{
+  font-size: 30px;
+  color: #a77c7c;
+}
+i:hover {
+  opacity: 0.8;
+  transform: scale(1.2);
+  cursor: pointer;
+}
