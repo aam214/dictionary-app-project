@@ -18,7 +18,7 @@ padding: 100px;
 .App h1{
   color:white;
   font-size: 70px;
-
+line-height: 1.2;
  
 }
 .App img{
@@ -26,5 +26,8 @@ padding: 100px;
 }
 
 footer{
-  color: white;
+  color:#f95959;
+}
+footer a{
+  color:#f95959;
 }

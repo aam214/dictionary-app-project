@@ -39,7 +39,7 @@ if (loaded){
 <div className="Dictionary">
     
       <form onSubmit={handleSubmit}>
-        <input type="search"   autoFocus={true} onChange={handlePossibleWordChange} className="search-engine"/>
+        <input type="search" placeholder="Type a word..."  autoFocus={true} onChange={handlePossibleWordChange} className="search-engine"/>
         <input type="submit" value="Search" className="submit" />
       </form>
 
