@@ -13,7 +13,7 @@ return (
       <div className="Def"><strong>
                 {definition.definition}</strong></div><br/>
                 <div className="examples">{definition.example}</div>
-           <Synonyms synonyms={definition.synonyms}/>
+                <Synonyms synonyms={definition.synonyms}/>
                     </div>
                     );
         })}
