@@ -13,6 +13,12 @@ padding: 30px;
   padding-top: 40px;
 padding-left: 80px;
 }
+.Photos img:hover {
+  transform: scale(1.4);
+  opacity: 1;
+  transition: all 120ms ease;
+  cursor: pointer;
+}
 .Results .pronunciation{
   color: #233142;
 }
