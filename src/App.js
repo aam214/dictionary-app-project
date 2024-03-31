@@ -11,7 +11,7 @@ export default function App() {
 
       <h1 className="text-center">My Dictionary</h1>
       </header>
-  <Dictionary defaultPossibleWord="Paradise"/>
+  <Dictionary defaultPossibleWord="Greeting"/>
   <footer className="text-center">
     Designed by Ariana Morin open-sourced on <a href="https://github.com/aam214/dictionary-app-project">{""}GitHub</a> and viewed on <a href="https://dictionary-app-discover-learn.netlify.app/">{""}Netlify</a>.
     </footer>  
