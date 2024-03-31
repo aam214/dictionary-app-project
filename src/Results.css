@@ -5,6 +5,14 @@ color: #233142;
 padding-left: 90px;
 text-transform: uppercase;
 }
+.Photos{
+display: flex;
+padding: 30px;
+}
+.Photos img{
+  padding-top: 40px;
+padding-left: 80px;
+}
 .Results .pronunciation{
   color: #233142;
 }

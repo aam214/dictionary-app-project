@@ -6,6 +6,7 @@
 .Dictionary section{
   margin: 20px 60px;
   padding: 20px 10px;
+  border-left: 4px solid #f95959;
   background-color: white;
 border-radius: 8px;
   padding: 30px;
@@ -43,7 +44,6 @@ margin: 10px;
   cursor: pointer;
 }
 @media(max-width:960px){
-
   .Dictionary .submit{
     text-align: center;
   }

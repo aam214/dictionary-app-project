@@ -2,13 +2,15 @@ import React from "react";
 
 export default function Photos(props){
   if (props.photos) {
-    console.log(props.photos);
+
   return (
-  <container> 
+  <section>
+    <div className="Photos">
     {props.photos.map(function (photo, index) {
-      return <img src={photo.src.small} alt="Search Images" key={index} />;
+      return <img src={photo.src.small} alt="Search Images" className="img-fluid" key={index} />;
   })}
- </container>
+  </div> 
+ </section>
  );
 
 } else {

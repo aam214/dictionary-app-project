@@ -54,8 +54,9 @@ if (loaded){
         <input type="search" placeholder="Type a word..."  autoFocus={true} onChange={handlePossibleWordChange} className="search-engine"/>
         <input type="submit" value="Search" className="submit" />
       </form>
-    <Photos photos={photos}/>
+ 
     <Results results={results}/>
+    <Photos photos={photos}/>
     </div>
   );
 
