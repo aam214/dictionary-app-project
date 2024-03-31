@@ -17,7 +17,7 @@ i{
 }
 i:hover {
   opacity: 0.8;
-  transform: scale(1.2);
+  transform: scale(1.4);
   cursor: pointer;
 }
 h4{
@@ -32,4 +32,15 @@ font-weight: 700;
 }
 .Synonyms{
   color:#f95959;
+}
+@media(max-width:960px){
+  .Results h3{
+    font-size: 27px;
+}
+.Phonetic{
+  text-align: center;
+}
+.Definition{
+  font-weight: 300px;
+}
 }
