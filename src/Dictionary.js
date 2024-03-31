@@ -17,7 +17,7 @@ setResults(response.data[0]);
   function search(){
    
  let apiUrl=
-  `https://api.dictionaryapi.dev/api/v2/entries/en/${possibleWord}`;
+ `https://api.dictionaryapi.dev/api/v2/entries/en/${possibleWord}`;
   axios.get(apiUrl).then(handleResponse);
 }
 function handleSubmit(event){

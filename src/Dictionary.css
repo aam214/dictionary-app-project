@@ -1,6 +1,6 @@
 .Dictionary{
   font-family: "Poppins", sans-serif;
-  font-style: normal;
+
   color:#233142;
 }
 .Dictionary section{
@@ -42,3 +42,4 @@ margin: 10px;
   font-size: 16px;
   cursor: pointer;
 }
+@media(max-width:960px)

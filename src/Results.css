@@ -1,5 +1,6 @@
 .Results h3{
 font-size: 40px;
+
 color: #233142;
 padding-left: 90px;
 text-transform: uppercase;
@@ -23,15 +24,24 @@ i:hover {
 h4{
   color: #233142;
 }
-.Definition{
+.Def{
   font-size: 15px;
-font-weight: 700;
+  opacity: 0.9;
 }
 .examples{
   opacity: 0.8;
 }
 .Synonyms{
   color:#f95959;
+  display: flex;
+
+}
+
+.Synonyms li {
+  font-size: 15px;
+list-style: none;
+padding-left: 25px;
+  line-height: 1.5;
 }
 @media(max-width:960px){
   .Results h3{
