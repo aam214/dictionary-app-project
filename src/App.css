@@ -8,7 +8,7 @@ padding: 100px;
 .App header{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
   url("heart-book.jpg");
-  padding:80px 40px;
+  padding:80px 50px;
   background-repeat: none;
   margin-top: -100px;
   background-size: cover;
@@ -30,4 +30,17 @@ footer{
 }
 footer a{
   color:#f95959;
+}
+@media (max-width: 960px) {
+  header {
+ 
+    width: 100%;
+  }
+  .App{
+    padding:0px;
+  }
+  .App h1{
+    font-size: 40px;
+  text-align: center;
+  }
 }
