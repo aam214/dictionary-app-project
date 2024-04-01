@@ -44,4 +44,10 @@ footer a{
     font-size: 40px;
   text-align: center;
   }
+  footer{
+    margin-top:20px;
+    padding:10px;
+    text-align: center;
+    font-size: 10px;
+  }
 }

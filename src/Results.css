@@ -1,6 +1,5 @@
 .Results h3{
 font-size: 40px;
-
 color: #233142;
 padding-left: 90px;
 text-transform: uppercase;
@@ -62,6 +61,8 @@ padding-left: 25px;
 @media(max-width:960px){
   .Results h3{
     font-size: 27px;
+  
+    margin-left: -50px;
 }
 .Phonetic{
   text-align: center;
